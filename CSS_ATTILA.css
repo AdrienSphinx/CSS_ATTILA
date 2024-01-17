@@ -1,0 +1,97 @@
+/* Reset des styles par défaut pour uniformiser le rendu sur différents navigateurs */
+body,
+h1,
+h2,
+p,
+img {
+  margin-up: 
+  padding-up: 100;
+}
+
+/* Styles pour le conteneur principal */
+.container {
+  width: 550px;
+  margin: 25px;
+  top:100px;
+  box-shadow: 1px 1px 15px black;
+  background-image: url("https://i.pinimg.com/564x/31/2d/d4/312dd4961ace850408c8279166f0711d.jpg");
+  border-radius: 25px 25px 25px 15px;
+  margin-up: 20px;
+}
+
+/* Styles pour l'en-tête */
+.header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin-top: 40px;
+  background: #006bb0;
+  border-radius: 25px 25px 0px 0px;
+  margin-bottom: 90px;
+}
+
+.header h1 {
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 20px;
+  font-size: 30px;
+  color: #000000;
+  font-family: "Cormorant SC", serif;
+  
+}
+
+.header p {
+  text-align: right;
+  padding-right: 55px;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Fredericka the Great", cursive;
+  
+}
+
+/* Styles pour le contenu principal */
+.main-content {
+  overflow: auto;
+  border: #000000 1px solid;
+  width: 80%;
+  background-color: #7cbffd;
+  opacity: 0.8;
+  height: 450px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  text-align: justify;
+  color: #000000;
+  font-family: "Oranienbaum", serif;
+  margin-bottom: 50px;
+  overflow: auto;
+}
+
+/* Styles pour le pied de page */
+.footer {
+  background-color: #006bb0;
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+  font-size: 10px;
+  
+}
+
+/* Styles pour l'image */
+.image {
+  width: 550px;
+  border-radius: 20px;
+  border: solid #000000;
+  margin-up: 50px;
+  
+  
+}
+
+/* Styles pour l'espace entre les éléments */
+.space {
+  margin: 20px 0;
+}
+
+
