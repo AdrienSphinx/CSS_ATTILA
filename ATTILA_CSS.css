@@ -1,0 +1,548 @@
+.bodyline {
+  padding:0px;
+} 
+
+body
+{
+background-position: top center center;
+}
+a { text-decoration: none; }
+
+.bodyline {
+  padding: 0px;
+}
+
+
+
+body
+{
+background-repeat: no-repeat;
+background-position: top center;
+}
+
+#navig
+{
+  width: 950px; 
+  margin: auto; 
+  text-align: center;
+}
+
+#navigation
+{
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: #EADAC6;
+  border-bottom: 1px solid #EADAC6;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding: 5px;
+}
+
+/*-----------------------PA----------------*/
+
+/* PAGE D\'ACCUEIL */
+#VAES {
+background:#c0bfd6 !important;
+}
+/* TITRE PREDEFINIS */
+.pfVAES span{
+background:rgba(250,250,250,0.3) !important; color:#191919 !important; 
+}
+/* BLOC EVENEMENTS */
+.newsVAES {
+border-color:rgba(250,250,250,0.3) !important; 
+}
+/* CONTENU STAFF */
+.staffVAES p{
+background:rgba(250,250,250,0.7) !important; color:black !important;
+}
+/* LIENS */
+.lksVAES a{
+background:rgba(250,250,250,0.6) !important; color:#191919 !important; 
+}
+/* BLOC CONTEXTE */
+#ctxtVAES {
+border-color:rgba(250,250,250,0.3) !important; 
+}
+/* CONTEXTE */
+.ctxtVAES div{
+background:rgba(250,250,250,0.8) !important; color:black !important;
+}
+/* BLOC PARTENAIRES */
+.partVAES {
+background:rgba(250,250,250,0.5) !important;
+}
+/*--------------fin------------------*/
+
+/*------------------prez---------------*/
+
+.bloc1 {
+  width: 500px;
+  height: 250px;
+ background-color: #82cec5 ;
+  padding: 2px;
+   text-align: justify;
+  overflow: auto;
+}
+.avatarprez {
+     width: 200px;
+  height: 316x;
+  display: block; /*définit le bloc*/
+  width: 200px; /*largeur*/
+  height: 320px; /*hauteur*/
+  overflow: hidden; /*cache l\\\'overflow*/
+  font-size: 11px; /*taille de la police*/
+}
+    .avatarprez_contenu {
+      position: absolute;
+      display: block;
+      width: 200px;
+      height: 316px;
+      overflow: auto;
+      background-color: white;
+      font-size: 10px;
+  padding: 2px;
+      text-align: justify;
+      opacity: 0;
+      -moz-opacity: 0;
+      -khtml-opacity: 0;
+      filter: alpha(opacity=0);
+      transform: all;
+    -moz-transform: all;
+    -o-transform: all;
+    -htm-transform: all;
+    -webkit-transform: all;
+    transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    -htm-transition: 1s;
+    -webkit-transition: 1s;
+    }
+
+
+.avatarprez_contenu:hover { /*nom de la class*/
+  opacity: 0.8; /*intensité de l\\\'opacité*/
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  filter: alpha(opacity=80);
+  transform: all; /*assure la transition sur IE10*/
+-moz-transform: all; /*assure la transition sur mozilla*/
+-o-transform: all; /*assure la transition sur opera*/
+-htm-transform: all;
+-webkit-transform: all; /*assure la transition sur chrome et safari*/
+transition: 1s; /*durée de la transition*/
+-moz-transition: 1s;
+-o-transition: 1s;
+-htm-transition: 1s;
+-webkit-transition: 1s; /*durée de la transition*/ 
+}
+
+.bloc2 {
+  width: 296px;
+  height: 316px;
+  background-color: #2cda14 ;
+  color: white;
+  padding: 2px;
+   text-align: justify;
+    overflow: auto;
+}
+.nomprenom {
+  font-family: \\\'Julius Sans One\\\', sans-serif;
+  font-size: 38px;
+  color: white;
+}
+.histoire {
+  font-family: \\\'Julius Sans One\\\', sans-serif;
+  font-size: 28px;
+  color: white;
+}
+
+
+/*----------------------------------*FIN*------------------------*/
+
+
+/* --------------------------------- PROFIL --------------------------------- */
+
+ /* AFFICHAGE DU PROFIL */
+.PFIL {
+margin:auto; width:800px;
+}
+/* PSEUDONYME PROFIL */
+.namePFIL {
+margin-bottom:10px;
+height:20px; padding:10px 0;
+text-transform:uppercase; text-align:center;
+background:#242424; color:#ccc; /* MODIFIABLE */
+}
+/* BLOC INFORMATIONS PROFIL */
+#abtPFIL {
+display:inline-block; margin-right:10px;
+width:570px;
+}
+/* BLOC GAUCHE INFORMATIONS */
+.abtPFIL {
+display:inline-block; margin-right:10px;
+width:285px; height:320px; padding:10px; overflow:auto;
+font-size:11px;
+background:#1a1a1a; color:#ccc; /* MODIFIABLE */
+}
+/* INTITULES CONTENU BLOC GAUCHE INFORMATIONS PROFIL */
+.abtPFIL div span {
+text-transform:uppercase; color:#ccc; /* MODIFIABLE */
+}
+/* CONTENU BLOC GAUCHE INFORMATIONS PROFIL */
+.abtPFIL div{
+padding:2px 0;
+}
+.abtPFIL .field_uneditable {
+display:inline-block; 
+}
+/* BORDURES BLOC INFORMATIONS PROFIL */
+.borderPFIL {
+padding:0 0 5px !important;
+border-bottom:1px solid #ccc; /* MODIFIABLE */
+}
+/* BLOC DROITE INFORMATIONS PROFIL */
+#adminPFIL {
+display:inline-block; vertical-align:top;
+width:255px; height:340px; 
+font-size:11px;
+}
+.adminPFIL {
+height:275px; padding:10px; overflow:auto;
+background:#1a1a1a; color:#ccc; /* MODIFIABLE */
+}
+/* CONTENU BLOC DROITE INFORMATIONS PROFIL */
+.adminPFIL div{
+padding:5px 0; 
+}
+/* INTITULES CONTENU BLOC DROITE INFORMATIONS PROFIL */
+.adminPFIL div span {
+text-transform:uppercase; color:#ccc; /* MODIFIABLE */
+}
+  /* BLOC IMAGES CONTACT PROFIL */
+#ktactPFIL {
+margin-top:10px; height:25px; padding:5px 0; text-align:center;
+background:#1a1a1a; /* MODIFIABLE */
+}
+/* IMAGES CONTACT PROFIL */
+.ktactPFIL {
+display:inline-block;
+}
+.ktactPFIL img {
+max-height:25px;
+}
+/* BLOC AVATAR */
+#avPFIL {
+display:inline-block; vertical-align:top;
+width:200px; padding:10px; 
+background:#1a1a1a; /* MODIFIABLE */
+}
+.avPFIL {
+width:200px; height:320px; overflow:hidden;
+}
+/* TITRE FEUILLE DE PERSONNAGE PROFIL */
+.tleRPG {
+margin:auto;
+width:800px; padding:10px 0; text-transform:uppercase; text-align:center;
+background:#242424; color:#ccc; /* MODIFIABLE */
+}
+/* CONTENU FEUILLE DE PERSONNAGE PROFIL */
+.boxRPG {
+margin:auto; width:780px; padding:10px;
+background:#1a1a1a; color:#ccc; /* MODIFIABLE */
+}
+/* INTITULES CONTENU FEUILLE DE PERSONNAGE PROFIL */
+.boxRPG span {
+text-transform:uppercase; color:#ccc; /* MODIFIABLE */
+}
+/* --------------------------------- FIN PROFIL --------------------------------- */
+
+.demidieufiche {
+  width: 480px;
+  padding: 10px;
+font-family: \\\'Julius Sans One\\\', sans-serif;
+  font-size: 30px;
+    color: white;
+    background-color: #1ebab2
+}
+
+.humainsfiche {
+  width: 480px;
+  padding: 10px;
+font-family: \\\'Julius Sans One\\\', sans-serif;
+  font-size: 30px;
+  color: white;
+    background-color: #8a4903;
+}
+
+.dieufiche {
+  width: 480px;
+  padding: 10px;
+font-family: \\\'Julius Sans One\\\', sans-serif;
+  font-size: 30px;
+    color: white;
+  background-color: #dce1df;
+
+}
+
+.creaturefiche {
+  width: 480px;
+  padding: 10px;
+font-family: \\\'Julius Sans One\\\', sans-serif;
+  background-color: #4cbd00‏;
+  font-size: 30px;
+    color: white;
+}
+
+.contextefiche {
+  width: 480px;
+  padding: 10px;
+font-family: \\\'Julius Sans One\\\', sans-serif;
+  background-color: #1c1715‏;
+  font-size: 30px;
+    color: white;
+}
+
+.citation {
+font-family: \\\'Julius Sans One\\\', sans-serif;
+    font-size: 24px;
+    color: white;
+  text-align: center;
+}
+
+.blocfichetout {
+  width: 480px;
+  padding: 10px;
+  background-color: #1c1715;
+    color: white;
+    text-align: justify;
+}
+
+/* QEEL */
+/* QEEL */
+.QEEL {
+margin:auto; width:800px; 
+}
+/* TITRE QEEL */
+.tleQEEL {
+margin-bottom:15px; 
+width:460px; height:60px; padding-top:25px; 
+font-family:Arial; background:#0d1217; box-shadow:inset 0 0 25px rgba(0,0,0,0.2); /* MODIFIABLE */
+letter-spacing:2px; text-transform:uppercase; text-align:center;
+}
+.tleQEEL a{
+font-size:32px;
+color:white; /* MODIFIABLE */
+}
+/* BLOC DERNIER UTILISATEUR/TOTAL MEMBRES & MESSAGES/ANNIVERSAIRES */
+.stsQEEL {
+display:inline-block; vertical-align:top; margin-left:15px;
+width:305px; height:295px; padding:10px; overflow:hidden;
+background-color:rgba(0,0,0,0.8); /* MODIFIABLE */
+font-size:11px; text-align:center;
+}
+/* DERNIER UTILISATEUR ENREGISTRE QEEL */
+.lstQEEL {
+height:65px; width:305px; padding-top:20px;
+background:#DEDEDE; color:black; /* MODIFIABLE */
+text-transform:uppercase; text-align:center; font-size:16px;
+}
+/* TOTAL MEMBRES QEEL */
+.tlMQEEL {
+display:inline-block; vertical-align:top; margin-top:15px; margin-right:15px;
+height:55px; width:145px; padding-top:25px;
+background:#101e29; color:white; /* MODIFIABLE */
+text-transform:uppercase; text-align:center;
+}
+/* NOMBRE MESSAGES QEEL */
+.tlPQEEL {
+display:inline-block; vertical-align:top; margin-top:15px;
+height:55px; width:145px; padding-top:25px;
+background:#294154; color:white; /* MODIFIABLE */
+text-transform:uppercase; text-align:center; 
+}
+/* ANNIVERSAIRES QEEL */
+.anvQEEL {
+display:inline-block; margin-top:15px; 
+width:305px; height:70px; padding-top:30px;
+text-transform:uppercase; text-align:center; font-size:24px; font-weight:bold;
+background:#191919; color:white; font-family:Arial; /* MODIFIABLE */
+}
+/* CONTENU ANNIVERSAIRES QEEL */
+.anvQEEL div {
+position:absolute; z-index:3; margin-top:-59px; 
+width:0px; height:80px; padding:10px; overflow:hidden;
+text-align:justify !important;
+background:#ccc; /* MODIFIABLE */
+opacity:0; transition:all .45s linear; -webkit-transition:all .45s linear;
+}
+.anvQEEL:hover div{
+width:285px; overflow:auto;
+opacity:1;
+}
+.anvQEEL .row1{
+background:none !important; padding:0 !important;
+}
+/* BLOC MEMBRES CONNECTES/24H & TRAITS GROUPES QEEL */
+#ondayQEEL {
+display:inline-block; vertical-align:top; 
+}
+/* MEMBRES CONNECTES & 24H */
+.ondayQEEL {
+display:inline-block; vertical-align:top; 
+width:360px; height:195px; padding:10px; overflow:hidden;
+background-color:rgba(250,250,250,0.8); color:black; /* MODIFIABLE */
+font-size:11px; text-align:justify;
+}
+.ondayQEEL:hover {
+overflow:auto;
+}
+.ondayQEEL .row1 {
+background:none; padding:0;
+}
+/* BLOC TRAITS GROUPES QEEL */
+.GQEEL {
+display:inline-block; margin-left:15px;
+width:65px; padding-top:5px; height:210px; text-align:center;
+background:black; /* MODIFIABLE */
+}
+/* TRAITS GROUPES QEEL */
+.onglet {
+display:block; margin:7px auto; 
+width:45px; height:10px; 
+opacity:0.7;
+}
+/* SURVOLEMENT TRAITS GROUPES QEEL */
+.onglet_1 {
+opacity:1; 
+}
+/* DESCRIPTIFS GROUPES QEEL */
+.blocGQEEL {
+margin-top:15px; margin-left:245px;
+width:545px; height:65px; padding:5px; overflow:auto;
+background-color:rgba(0,0,0,0.5); color:white; /* MODIFIABLE */ 
+text-align:justify; font-size:11px;
+}
+.contenu_onglet {
+display:none;
+}
+/* NOMS DES GROUPES QEEL */
+.contenu_onglet div {
+position:absolute; z-index:3;  margin-left:-250px; margin-top:-5px;
+width:215px; height:45px; padding:20px 10px 10px; overflow:hidden;
+font-size:18px; text-align:center; text-transform:uppercase;
+color:white; text-shadow:-1px 1px 0 rgba(0,0,0,0.1); /* MODIFIABLE */
+}
+/* FIN QEEL */
+
+
+/*---CATEGORIES---*/
+/* TITRE CATEGORIES */
+.tleCAT{ 
+margin:15px auto;
+width:800px; padding:10px 0; text-align:center;
+background:#191919; /* MODIFIABLE */
+}
+.tleCAT h2{
+margin:0 auto;
+font-size:42px; text-transform:uppercase; letter-spacing:3px; /* MODIFIABLE */
+font-family:Arial; color:white; text-shadow:1px 1px 0px rgba(0,0,0,0.3); /* MODIFIABLE */
+}
+/* BLOC FORUM */
+#blocFRM{
+width:800px; height:165px; text-align:center; overflow:hidden;
+margin:auto;
+}
+.blocFRM{
+position:relative; width:800px; height:165px; overflow:hidden;
+}
+/* TITRE BLOCS FORUMS */
+.tleFRM {
+display:inline-block; height:20px; width:485px; padding:10px 5px 10px 10px; overflow:hidden;
+font-family:Arial; font-size:16px; font-weight:bold; text-transform:uppercase; text-align:left;
+background:#ceccde; /* MODIFIABLE */
+}
+.tleFRM a{
+color:white !important; text-shadow:1px 1px 0px rgba(0,0,0,0.2); /* MODIFIABLE */
+}
+/* TRIANGLE TITRE FORUMS */
+.triLFRM {
+position:absolute; z-index:3; margin-left:490px; margin-top:-40px; 
+width:0; height:0; border-style: solid; border-width:40px 20px 0 0;  
+border-color:#ceccde transparent transparent transparent; /* MODIFIABLE */
+}
+/* ICÔNES BLOCS FORUMS */
+.imgFRM{
+position:absolute; margin-left:-10px;
+width:50px; height:40px; 
+}
+/* TRIANGLE NOMBRE SUJETS ET MESSAGES */
+.triRFRM {
+position:absolute; z-index:3; margin-left:520px; margin-top:-40px; 
+width:0; height:0; border-style: solid; border-width:0 0 40px 20px; 
+border-color:transparent transparent #f1f0f4 transparent; /* MODIFIABLE */
+}
+/* NOMBRE SUJETS ET MESSAGES */
+.nbFRM{
+display:inline-block; vertical-align:top; height:20px; width:290px; padding:13px 5px 7px 5px; overflow:hidden;
+text-align:center; font-size:11px; text-transform:uppercase; font-family:Arial;
+background:#f1f0f4; color:rgba(0,0,0,0.5); /* MODIFIABLE */
+}
+/* BLOC SOUS-FORUMS/DESCRIPTION/DERNIER MESSAGE */
+#dtlFRM {
+width:800px; height:125px;
+}
+/* SOUS-FORUMS */
+.sfFRM {
+display:inline-block; vertical-align:top; 
+width:205px; height:115px; padding:5px 125px 5px 5px; overflow:auto;
+font-size:10px; text-transform:uppercase; text-align:justify;
+background:#eae3f4; /* MODIFIABLE */
+}
+/* LIENS SOUS-FORUMS */
+.sfFRM a{
+color:#191919 !important; /* MODIFIABLE */
+}
+/* TRIANGLE DESCRIPTIONS FORUMS */
+.triFRM {
+position:absolute; z-index:3; margin-top:-125px; margin-left:230px;
+width: 0; height: 0; border-style: solid; border-width: 0 0 125px 105px;
+border-color: transparent transparent #dedede transparent; /* MODIFIABLE */
+}
+/* DESCRIPTIONS BLOCS FORUMS */
+.descFRM {
+display:inline-block; vertical-align:top;
+width:305px; height:115px; padding:5px; overflow:auto;
+background:#dedede; color:black; /* MODIFIABLE */
+font-size:11px; font-family:Arial; text-align:justify; 
+}
+/* IMAGES BLOCS FORUMS */
+.descFRM img {
+position:absolute; z-index:2; margin-top:-5px; margin-left:-340px;
+width:335px; height:125px;
+transition:all .65s linear; -webkit-transition:all .65s linear;
+}
+#dtlFRM:hover .descFRM img{
+transform:translateX(-335px); -webkit-transform:translateX(-335px);
+}
+/* DERNIER MESSAGE */
+.lmsgFRM {
+display:inline-block; vertical-align:top;
+width:130px; height:105px; padding:10px; overflow:hidden;
+text-align:right; font-size:11px; text-transform:uppercase; line-height:24px;
+background-color:rgba(250,250,250,0.7); /* MODIFIABLE */
+}
+/* FIN CATEGORIES */
+
+.footer {
+  width: 894px;
+  background-color: white;
+  padding: 3px;
+}
+
+
+
+
+
